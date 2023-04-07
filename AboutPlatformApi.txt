@@ -1,0 +1,8 @@
+We can even write Platform specfic code files instead of just writing styles for a platform.
+
+we can do this by just changing the file name. for eg I have a Title component file. Now I can create two different files i.e. Title.android.js and Title.ios.js
+just with this customization we can now achieve different results on different platform. 
+
+No need to change the import line for this file. Like if you are using this file in any other file then you can import it in the standard way we import.
+
+just it will automatically change the results. like for android it will use the Title.andoird.js and for ios it will use Title.ios.js
